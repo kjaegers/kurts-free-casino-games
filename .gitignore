@@ -1,0 +1,114 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.flutter-plugins
+.packages
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android/Gradle
+.gradle/
+android/.gradle/
+android/local.properties
+
+# iOS/macOS generated files
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Kotlin compiler caches
+android/.kotlin/
+.kotlin/
+
+# Python (serve_web.py, tools/)
+__pycache__/
+
+# Signing / secrets
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
+*.p12
+*.pem
+*.p8
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# Release binaries built outside /build
+*.apk
+*.aab
+
+# Local Claude Code settings (personal permissions; shared CLAUDE.md stays tracked)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Local-only folders and build/release scripts
+/docs/
+/build_and_distribute.ps1
+/build-forplaystore.ps1
+/serve_web.py
+/set-version.ps1
+
+# Captured test-run output
+test_output.txt
+test_results.json
+letter_link_tests.txt
