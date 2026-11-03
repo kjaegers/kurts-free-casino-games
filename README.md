@@ -30,6 +30,10 @@ flutter build apk --release
 - `lib/features/`: home, stats, settings and about screens, plus one folder per game under `games/`
 - `test/core/`: tests for the shared code
 
+## AI Assistance Disclaimer
+
+Much of this app was built with help from AI coding tools, chiefly [Claude](https://claude.ai) by Anthropic. The project owner directs, reviews and tests all the work, but some code, tests and documentation were written or drafted by AI.
+
 ## License
 
 Copyright (C) 2026 Kurt Jaegers.
