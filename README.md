@@ -6,6 +6,8 @@ A free, offline collection of single-player casino games played purely for fun. 
 
 This is the sibling project of [Kurt's Free Games](../kurts_free_games). It shares that app's shell (home menu, favorites, stats, settings, about), its neon theme and shared widgets, and its playing-card components. It ships none of its games.
 
+The collection is downloadable (APK) and can be played on a web browser at https://kurtsfreegames.game-host.org
+
 ## Status
 
 The app shell is in place and no games have been added yet. See `CLAUDE.md` for the project rules and the architecture reference, including the checklist for adding a game.
